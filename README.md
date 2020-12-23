@@ -1,5 +1,5 @@
 # HelloWorld
 Git Test
 ## Authors 
-Lewis Shutler
-Thomas Cann
+- Lewis Shutler
+- Thomas Cann
