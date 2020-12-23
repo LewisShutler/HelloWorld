@@ -19,3 +19,20 @@ def print_tree(size):
 
 if __name__=='__main__':
     main()
+    
+#Shows how many days before christmas.
+from datetime import datetime
+
+#Time now
+now = datetime.now()
+christmas = datetime(now.year, 12, 25)
+
+
+def calculateDays(now):
+    difference = christmas.day - now.day
+    if difference > 0:
+        print(f"It is {difference} days till Christmas!")
+    else:
+        print("It is Christmas!")
+        
+calculateDays(now)
